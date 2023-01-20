@@ -2,27 +2,10 @@ body{
   font-family: "Montserrat";
 }
 
-#title {
-  color: white;
-  background-color: #ff4c68;
-}
-
-.container-fluid {
-  padding: 3%  15% 15%;
-}
-
-h1 {
-  font-family: "Montserrat";
+h1, h2 {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  line-height: 1.5;
-  font-size: 3rem;
 }
 
 h3 {
@@ -36,6 +19,15 @@ p {
 }
 
 /* Navbar */
+
+.container-fluid {
+  padding: 3%  15% 15%;
+}
+
+#title {
+  color: white;
+  background-color: #ff4c68;
+}
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -154,12 +146,10 @@ p {
 } 
 
 .layered-waves {
-  background-image: url("/layered-waves.svg");
+  background-image: url("/images/layered-waves.svg");
 }
 
-/* #cta {
-  background-image: url("/layered-waves.svg");
-} */
+
 
 .call-to-action h3 {
   color: #fff;
