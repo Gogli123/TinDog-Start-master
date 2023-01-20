@@ -146,7 +146,7 @@ p {
 } 
 
 .layered-waves {
-  background-image: url("./layered-waves/layered-waves.svg");
+  background-image: url("layered-waves.svg");
 }
 
 .call-to-action h3 {
